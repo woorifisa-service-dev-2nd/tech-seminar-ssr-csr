@@ -1,0 +1,94 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@font-face {
+  font-family: 'GangwonEduPowerExtraBoldA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduPowerExtraBoldA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  background: #F3F4F8;
+  /* font-family: 'Dongle'; */
+  font-family: 'GangwonEduPowerExtraBoldA';
+  font-size: 30px;
+}
+#__next {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex-column{
+  flex-direction: column;
+}
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:row;
+  margin-top: 20px;
+}
+.link{
+  margin: 1rem 2rem;
+  text-decoration: none;
+  color: #000;
+}
+.title{
+  font-size: 50px;
+  font-weight: bold;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 0;
+  margin: 1rem;
+}
+
+.description{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.description-title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: bold;
+  height: 5rem;
+}
+
+.description-content{
+  font-size: 25px;
+  font-weight: bold;
+  height: 10rem;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 15rem;
+  height: 15rem;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  margin: 1rem;
+  padding: 1rem;
+}
